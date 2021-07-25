@@ -984,6 +984,11 @@ body {
     background-color: transparent;
 }
 
+.btn-shoping img {
+    width: 18px;
+    height: 18px;
+}
+
 .slider {
     display: -ms-flexbox;
     display: flex;
