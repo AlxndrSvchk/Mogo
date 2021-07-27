@@ -1,0 +1,95 @@
+.header {
+    padding: 15px 0;
+    height: 100vh;
+    background: url("../../assets/images/intro.jpg") center no-repeat;
+    background-size: cover;
+    color: $white;
+}
+
+.header__inner {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 20%;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header__nav {
+    width: 60%;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+
+    list-style-type: none;
+}
+
+.header__link {
+    padding: 15px 0;
+
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+
+    transition: color .1s linear;
+
+    &:hover {
+        color: #fce38a;
+    }
+
+    &.active {
+        color: #fce38a;
+        &::after {
+            margin-top: 5px;
+            content: '';
+            display: block;
+            width: 100%;
+            height: 3px;
+
+            background-color: #fce38a;
+        }
+    }
+}
+
+.header__middle {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 130px 0;
+    text-align: center;
+}
+
+.header__suptitle {
+    margin-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+}
+
+.header__title {
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+
+        &::after {
+            content: '';
+            margin: 60px auto;
+            display: block;
+            height: 3px;
+            width: 60px;
+
+            background-color: $white;
+        }
+}

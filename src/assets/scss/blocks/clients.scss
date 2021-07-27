@@ -1,0 +1,50 @@
+.clients {
+    position: relative;
+
+}
+
+.clients__item {
+    display: flex;
+    align-items: center;
+}
+
+.clients__photo {
+    margin-right: 25px;
+    width: 210px;
+    height: 210px;
+
+
+
+    & img {
+        border-radius: 50%;
+        border: 2px solid $cyan;
+        display: block;
+    }
+}
+
+.clients__text {
+    font-size: 24px;
+    font-family: 'Roboto' serif;
+    font-style: italic;
+
+    color: $secondary;
+}
+
+.clients__author {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+
+    color: $primary;
+
+    &::before {
+        margin-right: 10px;
+        vertical-align: middle;
+        content: '';
+        display: inline-block;
+        height: 3px;
+        width: 60px;
+
+        background-color: $red;
+    }
+}
+

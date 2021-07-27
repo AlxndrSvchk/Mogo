@@ -1,0 +1,50 @@
+@import "vars";
+
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Blocks */
+@import "blocks/works";
+@import "blocks/reviews";
+@import "blocks/sections";
+@import "blocks/blog";
+@import "blocks/map";
+@import "blocks/footer";
+@import "blocks/form";
+@import "blocks/logos";
+@import "blocks/teams";
+@import "blocks/clients";
+@import "blocks/service";
+@import "blocks/drop";
+@import "blocks/devices";
+@import "blocks/instruments";
+@import "blocks/statistic";
+@import "blocks/header";
+@import "blocks/btn";
+@import "blocks/slider";
+
+
+
+
+
+
+

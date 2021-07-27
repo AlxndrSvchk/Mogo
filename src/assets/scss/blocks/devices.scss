@@ -1,0 +1,17 @@
+.devices {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.devices__ipad {
+    display: block;
+}
+
+.devices__iphone {
+    position: absolute;
+    bottom: -75px;
+    right: -25px;
+}

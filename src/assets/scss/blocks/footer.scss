@@ -1,0 +1,157 @@
+.footer {
+    padding-top: 65px;
+    color: $secondary;
+}
+
+.footer__inner {
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.footer__item {
+
+    &--first {
+        width: 37%;
+    }
+    &--second {
+        width: 29%;
+
+        color: $black;
+    }
+    &--third {
+        width: 25%;
+    }
+}
+
+.footer__logo {
+    margin-bottom: 40px;
+
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.footer__text {
+    margin-bottom: 40px;
+
+    font-size: 15px;
+    font-family: 'Roboto' serif;
+}
+
+.footer__followers {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+
+    color: $black;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.footer__folowers-count {
+    font-weight: 700;
+}
+
+.footer__socials {
+    margin-bottom: 40px;
+
+    font-style: italic;
+
+    & a {
+        margin-left: 10px;
+        vertical-align: top;
+        font-size: 20px;
+        text-decoration: none;
+        color: $cyan;
+    }
+}
+
+.footer__title {
+    margin-bottom: 40px;
+
+    font-size: 14px;
+    text-transform: uppercase;
+
+    color: $black;
+}
+
+.footer__blog {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.footer__blog-img {
+    width: 120px;
+    height: 80px;
+}
+
+.footer__blog-content {
+    padding-left: 20px;
+
+    & a {
+        color: $black;
+
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer__blog-date {
+    margin-top: 10px;
+
+    font-family: 'Roboto' serif;
+    font-size: 13px;
+    font-style: italic;
+
+    color: $secondary;
+}
+
+.instagram__grid {
+    margin-bottom: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1f);
+    grid-template-rows: repeat(3, 88px);
+    grid-gap: 2px;
+
+}
+
+.instagram__item {
+    & img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.instagram__bottom {
+    & a {
+        font-family: 'Roboto' serif;
+        font-style: italic;
+        font-size: 13px;
+        text-decoration: none;
+
+        color: $secondary;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.copyright {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+
+    color: $black;
+    & span {
+        color: $red;
+    }
+
+}

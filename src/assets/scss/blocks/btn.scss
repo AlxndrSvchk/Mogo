@@ -1,0 +1,33 @@
+.btn {
+    padding: 15px 30px;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    border: 3px solid $white;
+    color: inherit;
+
+    transition: background-color .1s linear,
+                color .1s linear;
+
+    &:hover {
+        background-color: $white;
+        color: $black;
+    }
+}
+
+.btn-shoping {
+
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+    & img {
+        width: 18px;
+        height: 18px;
+    }
+}

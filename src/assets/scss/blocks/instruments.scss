@@ -1,0 +1,39 @@
+.instruments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.instruments__item {
+    width: 31%;
+    margin-bottom: 40px;
+    display: flex;
+    margin-right: 15px;
+}
+
+.instruments__ico {
+    display: block;
+    height: 34px;
+    width: 34px;
+}
+
+.instruments__content {
+    padding-left: 20px;
+}
+
+.instruments__title {
+    align-self: flex-start;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: $primary;
+}
+
+.instruments__text {
+    font-size: 15px;
+    font-family: 'Roboto' serif;
+
+    color: $secondary;
+}

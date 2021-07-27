@@ -1,0 +1,31 @@
+.statistic {
+    background-color: $cyan;
+}
+
+.stat {
+    display: flex;
+}
+
+.statistic__item {
+    flex: 1 1 0;
+    padding: 80px 40px;
+    text-align: center;
+    color: $white;
+
+    border-left: 1px solid rgba($white, .3);
+
+    &:last-child {
+        border-right: 1px solid rgba($white, .3);
+    }
+}
+
+.statistic__number {
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.statistic__text {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
